@@ -60,8 +60,6 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "Correct", Toast.LENGTH_SHORT).show();
         points++;
         tvPoints.setText("" + points);
-        number_game.setMax_numb(number_game.getMax_numb() + change);
-        number_game.setMin_numb(number_game.getMin_numb() - change);
         constraint.setBackgroundColor(Color.rgb(0, 255, 0));
         generate();
     }
